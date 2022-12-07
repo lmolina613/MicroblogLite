@@ -7,7 +7,7 @@ div
     background-color: #006699;
 }
 
-input[type=text],select 
+input[type=text],select, input[type=password]
 {
 width: 100%;
 padding: 12px 20px;
@@ -42,4 +42,9 @@ text-align: center;
 div label
 {
     color: white;
+}
+
+body {
+    background-image: url("images/scripts.jpg");
+    background-size: cover;
 }
