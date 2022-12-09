@@ -8,7 +8,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-color: rgb(59, 15, 80);
+    background-color: white;
 
 }
 
@@ -46,7 +46,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: 30%;
     float: left;
     height: 100%;
-    color: #ddd;
+    color: rgb(227, 33, 33);
 }
 
 .navbar-inner {
@@ -65,7 +65,7 @@ font-family: Arial, Helvetica, sans-serif;
     height: auto;
     margin: 10px auto 10px auto;
     overflow: hidden;
-    background-color: white;
+    background-color: gray;
 
 }
 
@@ -73,7 +73,8 @@ font-family: Arial, Helvetica, sans-serif;
     width: 23%;
     float: left;
     height: 300px;
-    background-color: green;
+    background-image: url(/yn\ jay.gif);
+    background-position: center;
 
 }
 
@@ -85,12 +86,24 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: tomato;
 
 }
+.col2:hover{
+    background-image: url(/8PB5.gif);
+    background-position: center;
+    
+}
 
 .col3 {
     width: 23%;
     float: right;
     height: 300px;
-    background-color: purple;
+    background-color: white;
+}
+
+.col3:hover {
+    background-image: url(/Brittney-Griner.webp);
+    background-position: center;
+    background-size: cover;
+
 
 }
 
@@ -126,6 +139,19 @@ font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 1.2em;
     color: #ddd;
+}
+
+.navbar-notification-button{
+    width: 33.3%;
+
+}
+.navbar-home-button{
+    width: 30.3%;
+
+}
+.navbar-messages-button{
+    width: 33.3%;
+
 }
 
 .navbar-button:hover {
@@ -172,4 +198,54 @@ font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
     background-position: center;
     background-image: url(/EM.jpg);
+}
+
+
+.icon {
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    width: 25px;
+    height: 25px;
+    
+    background-image: url(/home-logo.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.icon-home {
+       
+    background-image: url(/home-logo.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.icon-notifications {
+       
+    background-image: url(/bell.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.icon-messages {
+    
+    
+    background-image: url(/message-icon-png-17.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.button-text {
+    font-size: 0.6em;
+    color: #333;
+    height: 30px;
+    line-height: 28px;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+
 }
