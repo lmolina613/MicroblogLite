@@ -1,0 +1,251 @@
+body {
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.navbar {
+    width: 100vw;
+    height: 62px;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.navbar-line-wrapper {
+    height: 20px;
+    background-color: white;
+
+}
+
+.navbar-line-inner {
+
+    width: 1200px;
+    height: 2px;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+
+}
+
+.navbar-line-col1 {
+    width: 26%;
+    float: left;
+    height: 100%;
+    
+}
+
+.navbar-button-line {
+    width: 30%;
+    float: left;
+    height: 100%;
+    color: rgb(227, 33, 33);
+}
+
+.navbar-inner {
+
+    width: 1200px;
+    height: 60px;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.mainbody {
+
+    width: 1200px;
+    height: auto;
+    margin: 10px auto 10px auto;
+    overflow: hidden;
+    background-color: gray;
+
+}
+
+.col1 {
+    width: 23%;
+    float: left;
+    height: 300px;
+    background-image: url(/yn\ jay.gif);
+    background-position: center;
+
+}
+
+.col2 {
+    width: 50%;
+    float: left;
+    margin: 1.5%;
+    height: 300px;
+    background-color: tomato;
+
+}
+.col2:hover{
+    background-image: url(/8PB5.gif);
+    background-position: center;
+    
+}
+
+.col3 {
+    width: 23%;
+    float: right;
+    height: 300px;
+    background-color: white;
+}
+
+.col3:hover {
+    background-image: url(/Brittney-Griner.webp);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.navbar-col1 {
+    width: 26%;
+    float: left;
+    height: 100%;
+    background-color: white;
+}
+
+.navbar-col2 {
+    width: 44%;
+    float: left;
+    margin-left: 2%;
+    height: 100%;
+    background-color: white;
+
+}
+
+.navbar-col3 {
+    width: 26%;
+    float: right;
+    height: 100%;
+    background-color: white;
+
+}
+
+.navbar-button {
+    width: 33%;
+    margin-right: 0%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+.navbar-notification-button{
+    width: 33.3%;
+
+}
+.navbar-home-button{
+    width: 30.3%;
+
+}
+.navbar-messages-button{
+    width: 33.3%;
+
+}
+
+.navbar-button:hover {
+    background-color: aquamarine;
+}
+
+
+
+
+
+.profile-navbar-col1 {
+    width: 56%;
+    margin-right: 2;
+    float: left;
+    height: 100%;
+    background-color: white;
+
+}
+
+.profile-navbar-col2 {
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+    height: 100%;
+    background-color: white;
+
+}
+
+.profile-navbar-col3 {
+    width: 20%;
+    float: right;
+    height: 100%;
+    background-color: #white;
+
+}
+
+
+
+
+.logo {
+    margin: 0 auto 0 auto;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/EM.jpg);
+}
+
+
+.icon {
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    width: 25px;
+    height: 25px;
+    
+    background-image: url(/home-logo.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.icon-home {
+       
+    background-image: url(/home-logo.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.icon-notifications {
+       
+    background-image: url(/bell.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.icon-messages {
+    
+    
+    background-image: url(/message-icon-png-17.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.button-text {
+    font-size: 0.6em;
+    color: #333;
+    height: 30px;
+    line-height: 28px;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+
+}
