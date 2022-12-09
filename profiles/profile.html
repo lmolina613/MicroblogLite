@@ -54,7 +54,7 @@
             </ul>
     
             <div class="text-end">
-              <button type="button" class="btn btn-warning"><a class="nav-link" href="/register.html">Sign-up</a></button>
+              <button type="button" class="btn btn-warning"><a class="nav-link" href="/register/register.html">Sign-up</a></button>
               <button class="btn btn-danger p-2 m-2" id="logoutButton" onclick="logout();">Signout!</button>
             </div>
           </div>
@@ -80,11 +80,30 @@
       <form class="m-3" onsubmit="postBubblyThoughts(event);">
         <label for="postText"><h4>What's on your mind?..</h4></label>
         <textarea id="postText" class="form-control" rows="5" required></textarea>
-        <button class="btn btn-success m-2" type="submit">Send~</button>
+        <button class="btn btn-success m-2" type="submit"><a href="/posts/posts.html">Send</a> ~</button>
       </form>
       <p id="messagePara" class="text-success"></p>
 
       <div id="contentDiv"></div>
     </div>
+    <footer>
+      <div class="footer-content">
+          <h3>MicoBlogLite</h3>
+          <p>          </p>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li> 
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy;2022 MicroBlogLite designed by <span>FatmaM</span></p>
+      </div>
+  </footer>
+
   </body>
+
+
 </html>
