@@ -45,6 +45,12 @@ div label
 }
 
 body {
-    background-image: url("images/scripts.jpg");
+    background-image: url("/images/scripts.jpg");
     background-size: cover;
+}
+
+nav {
+    text-align: right;
+    margin-top: 1em;
+    background-color: black;
 }
