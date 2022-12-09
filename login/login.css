@@ -17,3 +17,6 @@ body {
     background-color: bisque;
 }
 
+#login div {
+    margin-bottom: 1em;
+}
